@@ -23,11 +23,24 @@
     width: 88px;
     height: 92px;
   }
+  
+  .top-cup {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
 
+   .bottom-cup {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+  
   .triangle {
     width: 50%;
     height: 90%;
     background-color: red;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
   }
 </style>
 
@@ -36,7 +49,8 @@
   <div class="cafetera"></div>
   <div class="bustello"></div>
   <div class="bustello"></div>
-  <div class="cup"></div>
+  <div class="cup top-cup"></div>
+  <div class="cup bottom-cup">
   <div class="cup">
     <div class="triangle"></div>
     <div class="stripes"></div>
