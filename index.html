@@ -38,7 +38,7 @@
     transform: perspective(300px) rotateX(-30deg);
   }
   
-  .bustelllo {
+  .bustello {
     width: 180px;
     height: 230px;
     background-color: yellow;
@@ -87,6 +87,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 2;
   }
 
   .star {
@@ -105,7 +107,7 @@
    position: absolute;
    top: 5%;
    left: 10%;
-   z-index: -1;
+   z-index: 0;
   }
   
 </style>
