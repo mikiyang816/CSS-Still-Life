@@ -24,11 +24,24 @@
     left: 20px;
     width: 210px;
     height: 300px;
-    border: 1px solid orange;
+  }
+   
+   .cafetera-topblackdot {
+    
   }
   
-  .caf-middle {
-    width: 90%;
+   .cafetera-top {
+     position: absolute;
+     bottom: 86%;
+     left: 9.8%;
+     width: 80%;
+     height: 45px;
+     background-image: linear-gradient(#ed9247 10%, #ee9642 30%, #d26713 70%, #cc5f01 80%);
+     border-radius: 50% 50% 0 0;
+  }   
+  
+  .cafetera-middle {
+    width: 70%;
     height: 55%;
     background-image: linear-gradient(to left, #ed9247 14%, #ee9642 36%, #d26713 53%, #cc5f01 68%);
     position: absolute;
@@ -36,6 +49,14 @@
     left: 15%;	
     z-index: 5;
     transform: perspective(300px) rotateX(-30deg);
+  }
+  
+  .cafetera-bottom {
+    
+  }
+  
+   .cafetera-lefthandle {
+    
   }
   
   .bustello {
@@ -114,7 +135,11 @@
 
 <div class="frame">
   <div class="cafetera">
-  <div class="caf-middle"></div>
+    <div class="cafetera-topblackdot"></div>
+    <div class="cafetera-top"></div>
+    <div class="cafetera-middle"></div>
+    <div class="cafetera-bottom"></div>
+    <div class="cafetera-lefthandle"></div>
   </div>
   <div class="bustello left-can"></div>
   <div class="bustello right-can"></div>
